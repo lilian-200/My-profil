@@ -1,0 +1,82 @@
+body {
+	background-image:url(images/background-image.jpg);
+	width: 700px;
+    margin: auto;
+}
+
+
+h1{
+    color: rgb(63, 83, 134);
+}
+
+h2{
+    color: rgb(82, 123, 188);
+}
+p{
+    color: rgb(119, 155, 205);
+}
+
+.container{
+    width: 700px;
+    margin: 40px auto;
+}
+
+#text-center{
+    text-align: center;
+}
+
+.card-white{
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.card-white p{
+    text-align: left;
+}
+
+.image-circle{
+    border-radius: 50%;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.btn-blue{
+    background-color:rgb(63, 83, 134) ;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 2s;
+}
+
+.btn-blue:hover{
+ background-color:rgb(39, 52, 83);
+    color: white;   
+}
+
+.list-inline{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i{
+font-size: 50px;
+color:rgb(129, 150, 192) ;
+}
+
+.list-inline i:hover{
+    color: rgb(60, 80, 120);
+}
+
+#introduction p {
+    margin-bottom: 40px;
+}
